@@ -76,4 +76,8 @@ public class Simulation {
 	public void clear() {
 		currentCells=new boolean[currentCells.length][currentCells[0].length];
 	}
+
+	public void setCell(int x, int y, boolean alive) {
+		currentCells[y][x]=alive;
+	}
 }

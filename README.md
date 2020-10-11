@@ -41,5 +41,4 @@ The following commands are available:
 |q|exit|
 |wasd|move the cursor|
 |u|change the state of the cell the cursor is pointing to|
-
-		
+|t|load a template|
