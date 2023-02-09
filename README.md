@@ -5,6 +5,10 @@ Conway's Game Of Life is a 2D-grid by John Horton Conway.
  
 Every Cell can have 2 states: alive or dead.  
 
+## Video
+
+https://user-images.githubusercontent.com/34687786/217893878-aadfe82a-de5b-4d16-b457-f858d6bbe9c1.mp4
+
 ## Rules
 * Any live cell with fewer than two live neighbors dies in the next generation, as if by under population.
 * Any live cell with two or three live neighbors lives on to the next generation.
@@ -20,7 +24,7 @@ Every Cell can have 2 states: alive or dead.
 
 At first, create a directory `bin` for your `.class` files.
 
-You can compile ASCII of Life using the command `javac src\io\github\danthe1st\ascii\of\life\*.java -d bin\io\github\danthe1st\ascii\of\life\`.
+You can compile ASCII of Life using the command `javac src\io\github\danthe1st\ascii\of\life\*.java -d bin`.
 
 You then need to `cd` into the `bin` directory.
 
